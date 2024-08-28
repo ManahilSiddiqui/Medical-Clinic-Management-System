@@ -5,7 +5,7 @@ import useAuth from '../../hooks/useAuth'
 import CircularLoader from '../../pageLoader/CircularLoader'
 import '../../css/userList.css'
 
-const DoctorsList = () => {
+const UsersList = () => {
 
   const { isManager, isAdmin, isReceptionist } = useAuth()
 
@@ -41,10 +41,17 @@ const DoctorsList = () => {
     let entitiesArray = Object.values(entities)
 
     let tableContent
-    
-    if(isManager || isAdmin || isReceptionist) {
+
+    if(isManager) {
       tableContent = entitiesArray?.length 
-      ? entitiesArray.filter(user => user.roles[0] === 'Doctor')
+      ? entitiesArray.filter(user => user.roles[0] === 'Receptionist' || user.roles[0] === 'Admin' || user.roles[0] === 'Manager')
+      .map(user => <User key={user.id} userId={user.id} />)
+      : null
+    }
+    
+    if(isAdmin) {
+      tableContent = entitiesArray?.length 
+      ? entitiesArray.filter(user => user.roles[0] === 'Receptionist')
       .map(user => <User key={user.id} userId={user.id} />)
       : null
     }
@@ -72,4 +79,4 @@ const DoctorsList = () => {
 
 }
 
-export default DoctorsList
+export default UsersList
