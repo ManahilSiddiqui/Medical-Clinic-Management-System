@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+.container {
+  height: 98vh;
+  width: 98vw;
+}
+
+.header-container {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 5vh;
+}
+
+.logo-name {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.name {
+    padding-top: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0.5em;
+    color: rgba(3, 18, 74, 0.937);
+}
+
+.login {
+    padding: 0.5em 0.7em;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid green; */
+}
+
+.login-font {
+    color: white;
+    font-size: 15px;
+}
+
+.login-button {
+    padding: 0.5em 2em;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.banner{
+    height: 40vh;
+    margin-top: 5vh;
+    /* border: 1px solid yellow;   */
+    display: flex;    
+    justify-content: space-around;                                                    
+}
+
+.banner-description {
+    /* border: 1px solid red; */
+    width: 40%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.banner-description--greeting {
+    display: flex;
+}
+
+.banner-description--greetingFont {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 0.5em;
+    color: rgb(46, 175, 255); /*rgb(0, 157, 255)*/
+}
+
+.banner-description--target {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0.6em;
+    margin: 1em auto;
+}
+
+.banner-description--paragraph {
+    padding-left: 0.6em;
+}
+
+.banner-description--paragraphFont {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-image {
+    /* border: 1px solid red; */
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-image-size {
+    width: 700px;
+}
+
+.facility{
+    margin-top: 5vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green;                                                                 */
+}
+
+.facility-container {
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid saddlebrown;
+}
+
+
+.card {
+    width: 25%;
+    height: 17vh;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+}
+
+.card-logo {
+    width: 50%;
+    height: 17vh;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+}
+
+.card-logo-color {
+    color: rgb(46, 175, 255);
+}
+
+.card-description {
+    margin: 0 1em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.card-description--simple {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    margin-top: 8vh;
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width:1600px) {
+    .card-logo {
+        font-size: 4em;
+    }
+
+    .card-description--simple {
+        font-size: small;
+    }
+
+    .login {
+        padding: 0.1em 0.7em;
+    }
+    
+    .login-font {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .login-button {
+        padding: 0.4em 2em;
+        border-color: blue;
+        border-radius: 10px;
+        background-color: blue;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+
+
+

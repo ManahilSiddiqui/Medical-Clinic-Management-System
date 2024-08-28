@@ -1,0 +1,151 @@
+:root {
+    /* COLORS */
+    --BGCOLOR: #0F172A;
+    --BORDER-COLOR: #000;
+    --COLOR: #FFF;
+    --ERROR: firebrick;
+    --INACTIVE: lightgray;
+    --LINK-COLOR: whitesmoke;
+    --LINK-HOVER: rgba(245, 245, 245, 0.9);
+    --NOTE-BGCOLOR: hsla(240, 64%, 27%, 0.65);
+    --STATUS-COMPLETE: limegreen;
+    --STATUS-OPEN: firebrick;
+    --TABLE-BGCOLOR: #FFF;
+    --TABLE-COLOR: #000;
+}
+
+.dash {
+    /* border: 1px solid green; */
+    width: 98vw;
+    height: 100vh;
+    position: relative;
+}
+
+.dash-header {
+    position: sticky;
+    top: 1em;
+    width: 100%;
+    padding: 0 0.5em;
+    border-bottom: 2px solid black;
+}
+
+.dash-header__container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dash-header__container--small {
+    max-width: 800px;
+  }
+
+.dash-header__title {
+    color: black;
+}
+
+.dash-header__nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    gap: 0.5em;
+}
+
+.dash-container {
+    padding: 0.75em 0.5em 0.5em;
+    flex-grow: 1;
+    position: relative;
+    top: 2em;
+    overflow-y: scroll;
+    overflow-x: none;
+    /* border: 1px solid salmon; */
+}
+
+.dash-footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    /* border: 1px solid green; */
+}
+
+.dash-footer-left {
+    font-size: 1rem;
+    padding: 0.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.dash-footer-right {
+    width: 25%;
+    margin-top: 0.65em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dash-footer-right--time {
+    margin-left: 0.5em;
+}
+  
+.dash-header__button {
+    font-size: 1rem;
+    width: auto;
+    height: auto;
+  }
+
+.welcome {
+    /* border: 1px solid grey; */
+    height: 69vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-container {
+    margin: 3em;
+    width: 15em;
+    height: 15em;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo--style {
+   /*  */
+}
+
+.welcome-container--description {
+    color: white;
+}
+
+
+@media screen and (max-width:1600px) {
+    .welcome-container {
+        margin: 3em;
+        width: 13em;
+        height: 13em;
+    }
+}
+
+
+
+
+
+
+
+
+
+

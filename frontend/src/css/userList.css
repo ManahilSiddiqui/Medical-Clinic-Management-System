@@ -1,0 +1,220 @@
+thead,
+tbody,
+tr {
+  display: contents;
+}
+
+.table_userlist {
+  font-size: 1rem;
+  width: 100%;
+  height: 74vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  color: #000;
+  gap: 0.1em;
+}
+
+.table_patientlist {
+  font-size: 1rem;
+  width: 100%;
+  height: 64vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: #000;
+  gap: 0.1em;
+}
+
+.table__thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.table__th,
+.table__cell {
+  text-align: left;
+  border: 2px solid #000;
+  padding: 0.95em;
+  display: grid;
+  place-content: center;
+}
+
+.table__Uppercase {
+  font-size: large;
+  text-transform: uppercase;
+}
+
+/* FORM - GENERAL */
+
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 0.75em;
+  max-width: 800px;
+  height: 75vh;
+}
+
+.form--login {
+  width: 100%;
+}
+
+.form__checkbox-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 0.5em;
+}
+
+.form__persist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5em;
+  margin-bottom: 1.2em;
+}
+
+.form__title-row {
+  /* margin-top: -2em; */
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__input,
+.form__submit-button {
+  padding: 0.5em;
+  border-radius: 15px;
+}
+
+.form__submit-button {
+  /* margin-top: 1em; */
+  width: 5em;
+  border: none;
+  color: white;
+  background-color: blue;
+}
+
+.form__input {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.form__input--width {
+  width: 100%;
+  height: 25vh;
+}
+
+.form__input--patient {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.form__input--text {
+  min-height: 150px;
+}
+
+.form__input--incomplete {
+  border: 1px solid var(--INPUT-INVALID);
+  outline: 1px solid var(--INPUT-INVALID);
+}
+
+.form__checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.form__select {
+  width: fit-content;
+  padding: 0.25em;
+}
+
+.form__action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5em;
+  position: absolute;
+  right: 0.5em;
+}
+
+.form__row {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2em;
+}
+
+.form__divider {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5em;
+}
+
+.form__input--text-secondRow {
+  margin-top: 0.5em;
+}
+
+.patient-details-first-row {
+  /* border: 1px solid green; */
+  height: 30vh;
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.patient-details-first-row--first-column {
+  /* border: 1px solid red; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.patient-details-first-row--second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.patient-details-second-row {
+  /* border: 1px solid rebeccapurple; */
+  width: 95vw;
+  height: 35vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.patient-details-second-row--first-column {
+  /* border: 1px solid green; */
+  width: 40%;
+}
+
+.patient-details-second-row--second-column {
+  /* border: 1px solid green; */
+  width: 40%;
+}
+
+
+/* Media Queries */
+@media screen and (min-width:1600px) {
+  .patient-details-second-row {
+    /* border: 1px solid rebeccapurple; */
+    width: 95vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 1.75em;
+    max-width: 800px;
+    height: 85vh;
+  }
+}
