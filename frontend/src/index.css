@@ -1,13 +1,107 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
+
+
+/* || UTILITY CLASSES */
+.errmsg {
+  display: inline-block;
+  background-color: var(--TABLE-BGCOLOR);
+  color: var(--ERROR);
+  padding: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+
+/* || PAGES */
+
+.public {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1em;
+  gap: 1rem;
+  border-radius: 15px;
+  border: 1px solid rgb(128, 128, 128);
+}
+
+.public__main,
+.login {
+  flex-grow: 1;
+  padding: 1em 0;
+}
+
+.public__addr {
+  margin-top: 1em;
+}
+
+/*  search bar  */
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 11.1vw;
+  margin: 1.2em 0;
+}
+
+.button-search {
+  width: 35px;
+  background-color: blue;
+  border: none;
+  border-radius: 4px;
+}
+
+.button-search--logo {
+  width: 18px;
+}
+
+.search-input {
+  height: 27px;
+}
+
+
+@media screen and (max-width:1600px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 15.5vw;
+    margin-right: 1.5em;
+  }
+  
+}
+
+@media screen and (max-width:1350px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 16.5vw;
+    margin-right: 1.5em;
+  }
+}
+
+
+
+
+
+
+
+
