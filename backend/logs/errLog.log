@@ -1,0 +1,68 @@
+20221119	00:41:37	29c11310-bebc-4929-adf5-abcaea07fe69	TypeError : Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle 	 GET	/users	undefined
+20221119	12:31:43	41a2b0bc-3f88-4b30-9edd-e6385acef689	ReferenceError : fs is not defined 	 POST	/patients	undefined
+20221119	12:32:32	74e2a09d-7ec9-49a2-895e-9b1c521dadd1	Error : ENOENT: no such file or directory, open '../uploads/Snap.png' 	 POST	/patients	undefined
+20221119	12:33:07	5eead103-9d6d-4a4f-b3b7-01b22ba7d5dd	Error : ENOENT: no such file or directory, open '../uploads/Snap.png' 	 POST	/patients	undefined
+20221119	12:33:26	d7595432-a0f2-4e94-a9e0-d00424ba5299	ReferenceError : pToken is not defined 	 POST	/patients	undefined
+20221119	12:34:10	22e860db-1594-43c3-a295-3c65072eef8b	ReferenceError : pToken is not defined 	 POST	/patients	undefined
+20221119	12:35:27	d3ed045e-2a0d-48b7-b1d5-db100340bc1a	ReferenceError : pToken is not defined 	 POST	/patients	undefined
+20221119	12:35:40	8b91ce8a-a9ed-4ca0-8ade-2b37e25a4ed6	Error : ENOENT: no such file or directory, open '../uploads/Snap.png' 	 POST	/patients	undefined
+20221119	12:41:27	185f6a10-15ee-4b6f-bf0e-1c147c3e0cd8	Error : ENOENT: no such file or directory, open 'D:\WEB\Project\Clinic management system\clinic\clinic_backend\routes\uploads\Snap.png' 	 POST	/patients	undefined
+20221119	12:41:43	55d6460a-54c4-4b7c-bcad-86157a7409f6	Error : ENOENT: no such file or directory, open 'D:\WEB\Project\Clinic management system\clinic\clinic_backend\routes\uploads\Snap.png' 	 POST	/patients	undefined
+20221119	12:41:54	56cddbe2-dfb4-4407-80b4-abf1e8d7b6f2	Error : ENOENT: no such file or directory, open 'D:\WEB\Project\Clinic management system\clinic\clinic_backend\routes\uploads\Snap.png' 	 POST	/patients	undefined
+20221119	12:44:15	7d5b2a97-8146-4463-89f8-cdb66f23f7a5	Error : ENOENT: no such file or directory, open 'D:\WEB\Project\Clinic management system\clinic\clinic_backend\routes\uploads\Snap.png' 	 POST	/patients	undefined
+20221119	12:44:45	185b9782-4c4a-4c5e-8aeb-0a54910dadca	Error : ENOENT: no such file or directory, open 'D:\WEB\Project\Clinic management system\clinic\clinic_backend\routes\uploads\Snap.png' 	 POST	/patients	undefined
+20221119	12:47:22	59b600a8-d696-4bb8-a1c3-f6bc01dad25c	Error : ENOENT: no such file or directory, open 'D:\WEB\Project\Clinic management system\clinic\clinic_backend\routes\uploads\function toISOString() { [native code] }Snap.png' 	 POST	/patients	undefined
+20221119	12:48:00	23b06f45-adcf-4c79-a0a1-5a396dbad3c1	Error : ENOENT: no such file or directory, open 'D:\WEB\Project\Clinic management system\clinic\clinic_backend\routes\uploads\function toISOString() { [native code] }Snap.png' 	 POST	/patients	undefined
+20221119	12:48:38	fccbad4e-69e3-4200-acec-b4fa96f98ad3	Error : ENOENT: no such file or directory, open 'uploads/function toISOString() { [native code] }Snap.png' 	 POST	/patients	undefined
+20221119	12:49:17	08924708-ba15-4cf4-8f95-30b68df6505e	Error : ENOENT: no such file or directory, open '../uploads/function toISOString() { [native code] }Snap.png' 	 POST	/patients	undefined
+20221119	12:59:23	7e3e068e-33da-4113-9d43-5bee3eddb575	Error : ENOENT: no such file or directory, open '../uploads/function toISOString() { [native code] }Snap.png' 	 POST	/patients	undefined
+20221119	13:03:27	889de476-d495-4087-87a6-1854b966a0a5	Error : ENOENT: no such file or directory, open '../uploads/function toISOString() { [native code] }Snap.png' 	 POST	/patients	undefined
+20221119	13:04:20	8fab14f0-5873-4f33-bc11-fbd31f0e6176	Error : ENOENT: no such file or directory, open '/uploads/Snap.png' 	 POST	/patients	undefined
+20221119	13:07:34	aa1d43f4-d742-43ed-b9a6-caad71093197	Error : ENOENT: no such file or directory, open '/uploads/Snap.png' 	 POST	/patients	undefined
+20221119	13:07:50	692582c6-7332-4818-aba9-09b00c09f102	Error : ENOENT: no such file or directory, open '/uploads/Snap.png' 	 POST	/patients	undefined
+20221119	13:08:36	e34c8d23-e514-4a4e-b39c-60be62075053	Error : ENOENT: no such file or directory, open '/uploads/Snap.png' 	 POST	/patients	undefined
+20221119	13:13:01	49961d62-888c-486c-ae04-949b8135370a	Error : ENOENT: no such file or directory, open '../uploads/Snap.png' 	 POST	/patients	undefined
+20221119	13:16:04	251b7628-18d5-464e-af0c-0574a7c5a8c6	Error : ENOENT: no such file or directory, open '../uploads/Snap.png' 	 POST	/patients	undefined
+20221119	13:16:12	4d3e0641-c677-4f05-bcb7-75be57831f6d	Error : ENOENT: no such file or directory, open '../uploads/Snap.png' 	 POST	/patients	undefined
+20221119	13:16:23	09316534-e315-40a2-b7ca-ade3096ce1c3	Error : ENOENT: no such file or directory, open '../uploads/Snap.png' 	 POST	/patients	undefined
+20221121	02:06:26	9c17b098-35ec-44c2-97de-52b25c50b98d	ReferenceError : User is not defined 	 POST	/patients	undefined
+20221121	02:08:15	5c8adbba-0289-43b2-8ded-1cac4e4a2839	ReferenceError : User is not defined 	 POST	/patients	undefined
+20221121	02:08:41	a5af283c-8d96-4a98-adc6-d90dafb89f85	ReferenceError : User is not defined 	 POST	/patients	undefined
+20221121	02:19:20	9444d82c-c043-41ba-ad3b-d97774bba587	ReferenceError : User is not defined 	 POST	/patients	undefined
+20221121	02:42:36	761c01e3-e6ac-4673-85b9-ffd74374bdba	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	02:42:58	56ab7768-fb36-4db2-8a95-da9b95f3ede4	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	02:44:11	188d5764-2e1c-438d-9f4d-0a95d257209f	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	02:44:23	79c08b66-7169-4728-a4dc-1b9e7a73d4e2	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	02:45:06	213eda06-0cb1-44e2-b32e-bb00dc565484	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	02:48:44	d8e6a097-fccb-44b0-b8c8-344841591df4	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	02:50:23	e0bbf4d4-1c50-449b-99d1-a632b3cda118	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	02:52:08	d95b5a51-d211-4a2b-b2a9-36101668b446	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	11:56:20	bac24d1b-b90c-4d78-8f91-c43b0ff8278f	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	11:58:23	6a9d54a9-1354-445c-9bd9-5fea0d12c86a	MongoServerError : E11000 duplicate key error collection: ClinicData.patients index: doctor_1 dup key: { doctor: null } 	 POST	/patients	undefined
+20221121	12:29:57	07738b46-24e2-4571-af08-a6fb5692229b	ReferenceError : pToken is not defined 	 POST	/patients	undefined
+20221127	01:14:17	5dc1d4e8-05df-4126-83c3-32bb3ee471ba	Error : Not allowed by cors 	 GET	/users	http://localhost:3001
+20221201	23:55:29	ca0e04d0-1612-4d99-af9b-e45d659d36ee	MongoServerError : E11000 duplicate key error collection: 6372941d0ce714465d94af1d_ClinicData.patients index: mobileNumber_1 dup key: { mobileNumber: 9434017832.0 } 	 PATCH	/patients	http://localhost:3000
+20221201	23:55:47	ad965fce-a34a-426f-899d-d9e0f4d512ab	MongoServerError : E11000 duplicate key error collection: 6372941d0ce714465d94af1d_ClinicData.patients index: mobileNumber_1 dup key: { mobileNumber: 9434017832.0 } 	 PATCH	/patients	http://localhost:3000
+20221202	01:28:58	1f3d6fc9-5233-4bd1-86a4-8489920fed69	MongoServerError : E11000 duplicate key error collection: 6372941d0ce714465d94af1d_ClinicData.patients index: mobileNumber_1 dup key: { mobileNumber: 9476107984.0 } 	 PATCH	/patients	undefined
+20221202	01:53:26	4fabcf35-e12c-4439-b56a-95f3c7374345	MongoServerError : E11000 duplicate key error collection: 6372941d0ce714465d94af1d_ClinicData.patients index: mobileNumber_1 dup key: { mobileNumber: 9876543217.0 } 	 PATCH	/patients	undefined
+20221202	01:55:44	49f27974-2804-4244-bc80-689f6cc6958f	MongoServerError : E11000 duplicate key error collection: 6372941d0ce714465d94af1d_ClinicData.patients index: mobileNumber_1 dup key: { mobileNumber: 9876543217.0 } 	 PATCH	/patients	undefined
+20221202	01:56:03	2bb59aba-d41c-4f3a-977f-103da4a16045	MongoServerError : E11000 duplicate key error collection: 6372941d0ce714465d94af1d_ClinicData.patients index: mobileNumber_1 dup key: { mobileNumber: 9876543217.0 } 	 PATCH	/patients	undefined
+20221202	02:08:53	fc31ef45-1262-4352-9c07-aad14f40be41	MongoServerError : db already exists with different case already have: [clinicData] trying to create [ClinicData] 	 POST	/users	undefined
+20221203	12:51:42	ec7eb6ee-cb3e-4cfd-84fd-8981c957908e	SyntaxError : Unexpected token / in JSON at position 191 	 POST	/patients	undefined
+20221203	12:52:01	d1024221-025b-4d05-b84b-5b951af2841b	SyntaxError : Unexpected token / in JSON at position 191 	 POST	/patients	undefined
+20221205	19:35:48	f7715396-f0c3-46bb-88ad-abf7ed5893b4	Too many requests: Too many login requests from this IP, please try again after 1 minute pause	POST	/	http://localhost:3000
+20221205	19:36:04	41a8ad68-d94e-4d3a-95db-b979c7217281	Too many requests: Too many login requests from this IP, please try again after 1 minute pause	POST	/	http://localhost:3000
+20221205	20:16:58	9e2c5308-a958-4fe9-9ca3-973f3186aa77	Too many requests: Too many login requests from this IP, please try again after 1 minute pause	POST	/	http://localhost:3000
+20221205	20:16:58	6c62b08d-94cc-45f3-9112-faafe65ed91e	Too many requests: Too many login requests from this IP, please try again after 1 minute pause	POST	/	http://localhost:3000
+20221205	20:16:58	3883eeb5-8a23-449a-be5d-1be0d4126187	Too many requests: Too many login requests from this IP, please try again after 1 minute pause	POST	/	http://localhost:3000
+20221211	15:46:45	d0da3039-ac19-441c-ac63-6b3363d17c23	MongoServerError : E11000 duplicate key error collection: clinicData.patients index: pID_1 dup key: { pID: null } 	 POST	/patients	undefined
+20221211	16:59:42	e9cff2ad-232d-47fd-bc30-8b8af3f2ecdc	ValidationError : Patient validation failed: emailID: Path `emailID` is required. 	 POST	/patients	http://localhost:3000
+20221211	17:04:06	438d50a1-fcc9-4614-83ce-e9550c6f426f	ValidationError : Patient validation failed: emailID: Path `emailID` is required. 	 POST	/patients	http://localhost:3000
+20221211	17:33:23	f4a479df-f453-4cbb-871f-074e5020b068	ValidationError : Patient validation failed: emailID: Path `emailID` is required. 	 POST	/patients	undefined
+20221211	17:37:00	0c5a7575-0f27-453a-8d33-be05e7a1ef68	MongoServerError : E11000 duplicate key error collection: clinicData.patients index: emailID_1 dup key: { emailID: null } 	 POST	/patients	http://localhost:3000
+20221211	17:37:52	b6f350b2-ad00-42a2-bb17-3a50a8c61922	MongoServerError : E11000 duplicate key error collection: clinicData.patients index: emailID_1 dup key: { emailID: null } 	 POST	/patients	http://localhost:3000
+20221212	01:28:56	23750d18-744c-44df-924e-a77e604f28e5	MongoServerError : E11000 duplicate key error collection: 6372941d0ce714465d94af1d_clinicData.patients index: pID_1 dup key: { pID: "srij214@gmail.com" } 	 PATCH	/patients	http://localhost:3000
